@@ -15,4 +15,18 @@ body{background-color: var(--preto);
 
 .principal{
     background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteiner{
+    height: 100vh;
+}
+
+.conteiner__botao{
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 1en;
+    color: var(--branco-);
+    display: block;
 }
