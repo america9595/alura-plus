@@ -3,10 +3,14 @@
     --preto:#00030c;
     --cor-do-botao:#167bf7;
     --cinza-escrita:#c0c0c0;
+    --fonte-principal: "inter";
 }
 
 body{background-color: var(--preto);
     color: var(--branco-)
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    
 }
 *{
     margin: 0;
